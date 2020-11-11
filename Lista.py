@@ -3,7 +3,7 @@
 #lista = ["Lunes","Martes","Miercoles","Jueves","Viernes",4,5.65,1,2,3,4,True]
 #lista.append(6) Agregamos otra lista 
 #lista.append("Alejandro")
-#lista.insert(2,3) Agregamos en la fila indicada [2,3]
+#lista.insert(2,3) Agregamos en la fila indicada [2,3] primero la posicion y lo que ingresaremos
 #print(lista[0:3])
 #lista.extend([6,7,8]) añadimos una lista grande
 #print(lista.index("Martes"))en que numero de la lista esta
@@ -15,8 +15,12 @@
 #lista.sort(reverse=True) ordena desendente
 #print(len[lista]) muestra cuantos elementos tiene
 
+milista=["Maria", "Pepe", "Marta", "Antonio"]*2 #Repite la cantidad de veces que quiera
+print(milista[:])
+#print("Pepe" in milista)
+
 #Diccionario
-diccionario = {"azul":"blue","rojo":"red","verde":"green"}
-diccionario["amarillo"] = "yelow"
+#diccionario = {"azul":"blue","rojo":"red","verde":"green"}
+#diccionario["amarillo"] = "yelow"
 #del(diccionario["verde"]) elimina el diccionario eligido
-print(diccionario)
+#print(diccionario)
