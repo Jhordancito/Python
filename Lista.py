@@ -18,9 +18,3 @@
 milista=["Maria", "Pepe", "Marta", "Antonio"]*2 #Repite la cantidad de veces que quiera
 print(milista[:])
 #print("Pepe" in milista)
-
-#Diccionario
-#diccionario = {"azul":"blue","rojo":"red","verde":"green"}
-#diccionario["amarillo"] = "yelow"
-#del(diccionario["verde"]) elimina el diccionario eligido
-#print(diccionario)
