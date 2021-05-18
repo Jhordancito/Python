@@ -1,10 +1,10 @@
 print("Programa de evaluacion de notas de alumnos")
 
-nota_alumno=int(input())
+nota_alumno = input("Introducee la nota del alumno: ") #Introducir por teclado 
 def evaluacion(nota):
     valoracion = "aprobado"
     if nota<5:
-        valoracion="suspenso"
+        valoracion = "Suspenso"
     return valoracion
 
-print(evaluacion(nota_alumno))
+print(evaluacion(int(nota_alumno)))
