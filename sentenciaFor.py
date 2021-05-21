@@ -46,8 +46,20 @@
 #    print("El email no es correcto")
 
 
-for i in range(5):  #range es como el array almacena los datos en este caso seria 0,1,2,3,4,
+#for i in range(5):  #range es como el array almacena los datos en este caso seria 0,1,2,3,4,
     #range(5,10) comienza en 5 y termina en 10
     #range(5,50,3) contea los numeros desde el 5 y va de 3 en 3 hasta el 50
-    print(f"valor de la variable {i}")
+#    print(f"valor de la variable {i}")
 
+#valido=False
+#email=input("Introduce tu Email: ")
+
+#for i in range(len(email)): #saca la cantidad de letras q se introduce como 0,1,2,3
+
+#    if email[i]=="@": #Verifica si en un de sus almacenados tiene la letra @
+
+#        valido =True
+#if valido:
+#        print("Email correcto")
+#else: 
+#        print("Email incorrecto")
